@@ -61,7 +61,7 @@ export default function AllSalon() {
                                     return (
                                         <div className="space-y-4">
                                             <a href={value.link}>
-                                                <img className={clsx('mx-auto h-auto lg:h-full', value.name !== 'TGS Springbreak' ? 'w-44' : 'w-52')} src={URL + value.logo} alt="" />
+                                                <img className={clsx('mx-auto h-auto', value.name !== 'TGS Springbreak' ? 'w-44' : 'w-full')} src={URL + value.logo} alt="" />
                                             </a>
                                             <div className="space-y-2">
                                                 <h3 className="text-lg font-extrabold">{value.date}</h3>
