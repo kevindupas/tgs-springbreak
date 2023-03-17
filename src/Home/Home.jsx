@@ -32,7 +32,7 @@ export default function Home() {
                     ? (
                         <Video
                             className="object-cover h-full w-full pt-[5em]"
-                            source="/dist/video/teaser_springbreak.mp4"
+                            source="/dist/video/springbreak_site_internet.mp4"
                         />
                     )
 

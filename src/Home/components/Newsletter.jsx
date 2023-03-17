@@ -11,7 +11,7 @@ export default function Newsletter() {
     const [errors, setErrors] = useState('');
     const [success, setSuccess] = useState('');
     function handleSubmit(e) {
-        const newsletters = { email, code_postal, salon: 'TGS Montpellier' };
+        const newsletters = { email, code_postal, salon: 'TGS Springbreak' };
         e.preventDefault();
         fetch(`${URL}/api/newsletters`, {
             method:  'POST',
@@ -33,7 +33,7 @@ export default function Newsletter() {
     }
 
     return (
-        <div className="bg-blue-700">
+        <div className="bg-[url('/dist/images/pattern-dark.jpeg')]">
             <div className="max-w-[1400px] mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8 lg:flex lg:items-center">
                 <div className="lg:w-0 lg:flex-1">
                     <h2 className="text-3xl lg:text-4xl text-white font-heading_bold tracking-[0.566667px] leading-[.95] uppercase">Newsletters</h2>
