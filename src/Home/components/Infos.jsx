@@ -55,7 +55,7 @@ export default function Infos() {
                         MEETT
                     </p> */}
                     {' '}
-                    <h1 className="text-6xl font-heading_bold leading-[1.20] uppercase text-blue-500 -mt-24">
+                    <h1 className="text-6xl font-heading_bold leading-[1.20] uppercase text-[#1eabe8] -mt-24">
                         {config.title_discover}
                     </h1>
                     {/* <hr className="relative -left-10 w-[calc(100% + 130px)] mb-2 w-96 border-black" /> */}
@@ -78,7 +78,7 @@ export default function Infos() {
                     </div>
                     {' '}
                     <div className="discoverWrapButton">
-                        <a href="https://www.youtube.com/user/tgsevenements" target="_blank" className="wrapButton bg-white hover:bg-blue-500 text-blue-500 hover:text-white " rel="noreferrer">
+                        <a href="https://www.youtube.com/user/tgsevenements" target="_blank" className="wrapButton bg-white hover:bg-blue-400  text-[#1eabe8]  hover:text-white " rel="noreferrer">
                             <span className="font-bold uppercase">Découvrir</span>
                             {' '}
                         </a>

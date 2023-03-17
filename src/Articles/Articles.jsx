@@ -77,7 +77,7 @@ export default function Articles({ categoryName, categories }) {
                                         key={`Tag-${tag}`}
                                         type="button"
                                         onClick={() => setActiveTab(tag)}
-                                        className={clsx('inline-flex items-center px-3 py-2 border hover:bg-blue-500 hover:text-white border-transparent leading-4 font-medium rounded-md shadow-sm', activeTab === tag ? 'bg-blue-500 text-white' : 'bg-white text-black')}
+                                        className={clsx('inline-flex items-center px-3 py-2 border hover:bg-blue-400 hover:text-white border-transparent leading-4 font-medium rounded-md shadow-sm', activeTab === tag ? 'bg-[#1eabe8] text-white' : 'bg-white text-black')}
                                     >
                                         <span className="relative z-10 text-xl font-bold uppercase inline-block">
                                             {tag}
@@ -100,7 +100,7 @@ export default function Articles({ categoryName, categories }) {
                                             key={`Tag-${tag}`}
                                             type="button"
                                             onClick={() => setActiveTab(tag)}
-                                            className={clsx('inline-flex items-center px-3 py-2 border hover:bg-blue-500 hover:text-white border-transparent leading-4 font-medium rounded-md shadow-sm', activeTab === tag ? 'bg-blue-500 text-white' : 'bg-white text-black')}
+                                            className={clsx('inline-flex items-center px-3 py-2 border hover:bg-blue-400 hover:text-white border-transparent leading-4 font-medium rounded-md shadow-sm', activeTab === tag ? 'bg-[#1eabe8] text-white' : 'bg-white text-black')}
                                         >
                                             <span className="relative z-10 text-sm font-bold uppercase inline-block">
                                                 {tag}

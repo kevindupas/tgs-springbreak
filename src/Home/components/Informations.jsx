@@ -14,7 +14,7 @@ export default function Informations() {
                 <h2 className="text-white font-heading_bold font-bold text-xl lg:text-4xl uppercase tracking-wide mb-12 text-center">Organisez-vous pour ne rien rater !</h2>
                 <div className="grid grid-cols-2 gap-5 sm:gap-6 sm:grid-cols-2 lg:grid-cols-4">
 
-                    <Link to="faqs" className="w-full bg-blue-700 hover:scale-105 rounded-lg sahdow-lg p-12 flex flex-col justify-center items-center">
+                    <Link to="faqs" className="w-full bg-[#1eabe8] hover:scale-105 rounded-lg sahdow-lg p-12 flex flex-col justify-center items-center">
                         <div className="mb-8 hidden lg:block">
                             <i className="fa-regular fa-circle-question text-7xl text-white" />
                         </div>
@@ -24,7 +24,7 @@ export default function Informations() {
 
                     </Link>
 
-                    <a href={config.plan_pdf !== '' ? URL + config.plan_pdf : '#'} target="_blank" className="w-full bg-blue-700 hover:bg-blue-900  rounded-lg sahdow-lg p-12 flex flex-col justify-center items-center" rel="noreferrer">
+                    <a href={config.plan_pdf !== '' ? URL + config.plan_pdf : '#'} target="_blank" className="w-full bg-[#1eabe8] hover:bg-blue-400  rounded-lg sahdow-lg p-12 flex flex-col justify-center items-center" rel="noreferrer">
                         <div className="mb-8 hidden lg:block">
                             <i className="fa-solid fa-map-location-dot text-7xl text-white z-50" />
                         </div>
@@ -34,7 +34,7 @@ export default function Informations() {
 
                     </a>
 
-                    <a href={config.planning_pdf !== '' ? URL + config.planning_pdf : '#'} target="_blank" className="w-full bg-blue-700 hover:bg-blue-900  rounded-lg sahdow-lg p-12 flex flex-col justify-center items-center" rel="noreferrer">
+                    <a href={config.planning_pdf !== '' ? URL + config.planning_pdf : '#'} target="_blank" className="w-full bg-[#1eabe8]0 hover:bg-blue-400  rounded-lg sahdow-lg p-12 flex flex-col justify-center items-center" rel="noreferrer">
                         <div className="mb-8 hidden lg:block">
                             <i className="fa-regular fa-calendar-days text-7xl text-white" />
                         </div>
@@ -44,7 +44,7 @@ export default function Informations() {
 
                     </a>
 
-                    <Link to="informations-pratiques" className="w-full bg-blue-700 hover:bg-blue-900  rounded-lg sahdow-lg p-12 flex flex-col justify-center items-center">
+                    <Link to="informations-pratiques" className="w-full bg-[#1eabe8] hover:bg-blue-400  rounded-lg sahdow-lg p-12 flex flex-col justify-center items-center">
                         <div className="mb-8 hidden lg:block">
                             <i className="fa-regular fa-circle-question text-7xl text-white" />
                         </div>

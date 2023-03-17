@@ -33,33 +33,33 @@ function Header({
                         {
                             navbarOpen
                                 ? (
-                                    <a href="/" className="text-2xl text-white hover:text-blue-500">  </a>
+                                    <a href="/" className="text-2xl text-white hover:text-[#1eabe8]">  </a>
 
                                 ) : (
                                     <>
                                         <Link
                                             to="exposants"
-                                            className="text-2xl tracking-wide lg:block hidden text-white hover:text-blue-500"
+                                            className="text-2xl tracking-wide lg:block hidden text-white hover:text-[#1eabe8]"
                                         >
                                             {' '}
                                             Exposants
                                         </Link>
                                         <Link
                                             to="programmes"
-                                            className="text-2xl tracking-wide lg:block hidden text-white hover:text-blue-500"
+                                            className="text-2xl tracking-wide lg:block hidden text-white hover:text-[#1eabe8]"
                                         >
                                             {' '}
                                             Programmes
                                         </Link>
                                         <Link
                                             to="invites"
-                                            className="text-2xl tracking-wide lg:block hidden text-white hover:text-blue-500"
+                                            className="text-2xl tracking-wide lg:block hidden text-white hover:text-[#1eabe8]"
                                         >
                                             Invités
                                         </Link>
                                         <Link
                                             to="billetterie"
-                                            className="text-2xl tracking-wide lg:block hidden bg-blue-500 px-3 text-white hover:text-black"
+                                            className="text-2xl tracking-wide lg:block hidden bg-[#1eabe8] px-3 text-white hover:text-black"
                                         >
                                             {' '}
                                             Billetterie

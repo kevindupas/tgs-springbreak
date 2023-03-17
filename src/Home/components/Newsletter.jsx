@@ -33,7 +33,7 @@ export default function Newsletter() {
     }
 
     return (
-        <div className="bg-[url('/dist/images/pattern-dark.jpeg')]">
+        <div className="bg-[#1eabe8]">
             <div className="max-w-[1400px] mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8 lg:flex lg:items-center">
                 <div className="lg:w-0 lg:flex-1">
                     <h2 className="text-3xl lg:text-4xl text-white font-heading_bold tracking-[0.566667px] leading-[.95] uppercase">Newsletters</h2>
@@ -70,7 +70,7 @@ export default function Newsletter() {
                             />
                         </div>
                         <div className="mt-3 rounded-md shadow sm:mt-0 sm:ml-3 sm:flex-shrink-0">
-                            <button type="submit" className="w-full flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-500 hover:bg-blue-600 focus:outline-none">Envoyer</button>
+                            <button type="submit" className="w-full flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-500 hover:bg-blue-700 focus:outline-none">Envoyer</button>
                         </div>
                     </form>
                     <p className="mt-3 lg:ml-5 text-sm text-gray-300">

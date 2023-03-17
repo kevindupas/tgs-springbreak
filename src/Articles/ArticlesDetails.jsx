@@ -288,7 +288,7 @@ export default function ArticlesDetails() {
                                 ? (
                                     <div key={planning + SALON_ID} className="w-full lg:w-96 h-full bg-white mt-9 border border-gray-400 shadow-lg rounded-lg">
                                         <div className="relative p-6 space-y-6 lg:p-8">
-                                            <h3 className="text-3xl text-center text-blue-500 uppercase font-bold underline">Infos planning</h3>
+                                            <h3 className="text-3xl text-center text-[#1eabe8] uppercase font-bold underline">Infos planning</h3>
                                             <div />
                                             <ul className="w-max space-y-4 py-6 m-auto text-gray-600">
                                                 <li className="space-x-2">
@@ -297,7 +297,7 @@ export default function ArticlesDetails() {
                                                 </li>
                                             </ul>
 
-                                            <Link to="/billetterie" className="block w-full py-3 px-6 text-center rounded-xl transition bg-blue-600 hover:bg-blue-700">
+                                            <Link to="/billetterie" className="block w-full py-3 px-6 text-center rounded-xl transition bg-[#1eabe8] hover:bg-blue-400">
                                                 <span className="text-white font-semibold">
                                                     Acheter vos billets
                                                 </span>
@@ -356,7 +356,7 @@ export default function ArticlesDetails() {
                             <div className="my-8">
                                 <button
                                     type="button"
-                                    className="inline-flex items-center px-6 py-3 border border-transparent shadow-sm text-base font-medium rounded-md text-white bg-blue-500"
+                                    className="inline-flex items-center px-6 py-3 border border-transparent shadow-sm text-base font-medium rounded-md text-white bg-[#1eabe8]"
                                     onClick={() => navigate(-1)}
                                 >
                                     <img className="-ml-1 mr-3 h-5 w-5" src="../dist/images/arrow-left-long-solid.svg" alt="" />

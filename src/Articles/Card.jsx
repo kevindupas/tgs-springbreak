@@ -1,5 +1,7 @@
 /* eslint-disable jsx-a11y/control-has-associated-label */
 /* eslint-disable no-console */
+import { faLongArrowAltRight } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import dayjs from 'dayjs';
 import React from 'react';
 import { Link, NavLink } from 'react-router-dom';
@@ -177,9 +179,9 @@ export default function Card({ menuPosts }) {
                                                         </li> */}
                                             </div>
                                         </div>
-                                        <Link className="news-card__read-more bg-black hover:bg-blue-500 text-blue-500 hover:text-black" to={`/post/${value.id}`}>
+                                        <Link className="news-card__read-more bg-black hover:bg-blue-400 text-[#1eabe8] hover:text-black" to={`/post/${value.id}`}>
                                             En savoir plus
-                                            <i className="fas fa-long-arrow-alt-right text-blue-600" />
+                                            <FontAwesomeIcon icon={faLongArrowAltRight} className="text-white" />
                                         </Link>
                                     </div>
                                 </div>

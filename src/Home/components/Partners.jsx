@@ -192,7 +192,7 @@ export default function PartnerTest() {
                             <div className="flex justify-end items-center">
                                 <Link
                                     to="partenaires"
-                                    className="inline-flex items-center rounded-md border border-transparent bg-blue-600 px-4 py-2 text-base font-medium text-white uppercase shadow-sm hover:bg-blue-700"
+                                    className="inline-flex items-center rounded-md border border-transparent bg-[#1eabe8] px-4 py-2 text-base font-medium text-white uppercase shadow-sm hover:bg-blue-400"
                                 >
                                     tous les partenaires
                                 </Link>

@@ -40,7 +40,7 @@ export default function Video({
                     viewport={{ once: true, amount: 0.8 }}
                 >
                     <motion.div variants={cardVariants}>
-                        <blockquote className="text-white font-heading_bold tracking-[0.566667px] leading-[.95] indent-0 uppercase text-5xl lg:text-5xl fix-width border-l-[15px] border-blue-500 pl-5 py-4 relative">
+                        <blockquote className="text-white font-heading_bold tracking-[0.566667px] leading-[.95] indent-0 uppercase text-5xl lg:text-5xl fix-width border-l-[15px] border-[#1eabe8] pl-5 py-4 relative">
                             <span
                                 className="drop-shadow-2xl"
                                 style={{

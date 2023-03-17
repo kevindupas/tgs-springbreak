@@ -165,7 +165,7 @@ export default function InviteTest({
                                                             )}
                                                         </ul>
                                                     </div>
-                                                    <Link className="news-card__read-more bg-black hover:bg-blue-500 text-blue-500 hover:text-black" to={`/post/${data.id}`}>
+                                                    <Link className="news-card__read-more bg-black hover:bg-blue-500 text-[#1eabe8] hover:text-black" to={`/post/${data.id}`}>
                                                         En savoir plus
                                                     </Link>
                                                 </div>

@@ -19,7 +19,7 @@ export default function MenuOverlay({ navbarOpen, setNavbarOpen }) {
         >
 
             <div className="max-w-[1200px] w-[calc(100%-30px)] flex flex-col mx-auto">
-                <div className="border border-blue-500 h-[1px] opacity-30" />
+                <div className="border border-[#1eabe8] h-[1px] opacity-30" />
                 {/* <div className="BaseIcon Header-separator BaseIcon--separator">
                     <svg viewBox="0 0 491 6" preserveAspectRatio="xMidYMid" className="BaseIcon-icon">
                     <use xlinkHref="#separator--sprite" />
@@ -32,7 +32,7 @@ export default function MenuOverlay({ navbarOpen, setNavbarOpen }) {
                             <li className="flex">
                                 <Link
                                     to="faqs"
-                                    className="hover-this relative flex text-[40px] lg:text-[68px] font-microgramma tracking-[0.566667px] leading-[.95] uppercase menu__item-link hover:text-blue-500"
+                                    className="hover-this relative flex text-[40px] lg:text-[68px] font-microgramma tracking-[0.566667px] leading-[.95] uppercase menu__item-link hover:text-[#1eabe8]"
                                     onClick={() => {
                                         setNavbarOpen(false);
                                     }}
@@ -43,7 +43,7 @@ export default function MenuOverlay({ navbarOpen, setNavbarOpen }) {
                             <li className="flex">
                                 <Link
                                     to="informations-pratiques"
-                                    className="hover-this relative flex text-[40px] lg:text-[68px] font-microgramma tracking-[0.566667px] leading-[.95] uppercase menu__item-link hover:text-blue-500"
+                                    className="hover-this relative flex text-[40px] lg:text-[68px] font-microgramma tracking-[0.566667px] leading-[.95] uppercase menu__item-link hover:text-[#1eabe8]"
                                     onClick={() => {
                                         setNavbarOpen(false);
                                     }}
@@ -56,7 +56,7 @@ export default function MenuOverlay({ navbarOpen, setNavbarOpen }) {
                                 <a
                                     href={config.plan_pdf !== '' ? URL + config.plan_pdf : '#'}
                                     target="_blank"
-                                    className="relative flex text-[40px] lg:text-[68px] font-microgramma tracking-[0.566667px] leading-[.95] uppercase menu__item-link hover:text-blue-500"
+                                    className="relative flex text-[40px] lg:text-[68px] font-microgramma tracking-[0.566667px] leading-[.95] uppercase menu__item-link hover:text-[#1eabe8]"
                                     onClick={() => {
                                         setNavbarOpen(false);
                                     }}
@@ -69,7 +69,7 @@ export default function MenuOverlay({ navbarOpen, setNavbarOpen }) {
                             <li className="flex">
                                 <Link
                                     to="partenaires"
-                                    className="relative flex text-[40px] lg:text-[68px] font-microgramma tracking-[0.566667px] leading-[.95] uppercase menu__item-link hover:text-blue-500"
+                                    className="relative flex text-[40px] lg:text-[68px] font-microgramma tracking-[0.566667px] leading-[.95] uppercase menu__item-link hover:text-[#1eabe8]"
                                     onClick={() => {
                                         setNavbarOpen(false);
                                     }}
@@ -81,7 +81,7 @@ export default function MenuOverlay({ navbarOpen, setNavbarOpen }) {
                                 <a
                                     href={config.planning_pdf !== '' ? URL + config.planning_pdf : '#'}
                                     target="_blank"
-                                    className="relative flex text-[40px] lg:text-[68px] font-microgramma tracking-[0.566667px] leading-[.95] uppercase menu__item-link hover:text-blue-500"
+                                    className="relative flex text-[40px] lg:text-[68px] font-microgramma tracking-[0.566667px] leading-[.95] uppercase menu__item-link hover:text-[#1eabe8]"
                                     onClick={() => {
                                         setNavbarOpen(false);
                                     }}
@@ -93,7 +93,7 @@ export default function MenuOverlay({ navbarOpen, setNavbarOpen }) {
                             <li className="flex">
                                 <Link
                                     to="billetterie"
-                                    className="relative flex text-[40px] lg:text-[68px] font-microgramma tracking-[0.566667px] leading-[.95] uppercase menu__item-link hover:text-blue-500"
+                                    className="relative flex text-[40px] lg:text-[68px] font-microgramma tracking-[0.566667px] leading-[.95] uppercase menu__item-link hover:text-[#1eabe8]"
                                     onClick={() => {
                                         setNavbarOpen(false);
                                     }}
@@ -108,7 +108,7 @@ export default function MenuOverlay({ navbarOpen, setNavbarOpen }) {
                             <li className="flex">
                                 <Link
                                     to="invites"
-                                    className="relative flex text-[30px] lg:text-[68px] font-microgramma tracking-[0.566667px] leading-[.95] uppercase menu__item-link hover:text-blue-500"
+                                    className="relative flex text-[30px] lg:text-[68px] font-microgramma tracking-[0.566667px] leading-[.95] uppercase menu__item-link hover:text-[#1eabe8]"
                                     onClick={() => {
                                         setNavbarOpen(false);
                                     }}
@@ -119,7 +119,7 @@ export default function MenuOverlay({ navbarOpen, setNavbarOpen }) {
                             <li className="flex">
                                 <Link
                                     to="exposants"
-                                    className="hover-this relative flex text-[30px] lg:text-[68px] font-microgramma tracking-[0.566667px] leading-[.95] uppercase menu__item-link hover:text-blue-500"
+                                    className="hover-this relative flex text-[30px] lg:text-[68px] font-microgramma tracking-[0.566667px] leading-[.95] uppercase menu__item-link hover:text-[#1eabe8]"
                                     onClick={() => {
                                         setNavbarOpen(false);
                                     }}
@@ -130,7 +130,7 @@ export default function MenuOverlay({ navbarOpen, setNavbarOpen }) {
                             <li className="flex">
                                 <Link
                                     to="programmes"
-                                    className="hover-this relative flex text-[30px] lg:text-[68px] font-microgramma tracking-[0.566667px] leading-[.95] uppercase menu__item-link hover:text-blue-500"
+                                    className="hover-this relative flex text-[30px] lg:text-[68px] font-microgramma tracking-[0.566667px] leading-[.95] uppercase menu__item-link hover:text-[#1eabe8]"
                                     onClick={() => {
                                         setNavbarOpen(false);
                                     }}
@@ -141,7 +141,7 @@ export default function MenuOverlay({ navbarOpen, setNavbarOpen }) {
                             <li className="flex">
                                 <Link
                                     to="informations-pratiques"
-                                    className="relative flex text-[30px] lg:text-[68px] font-microgramma tracking-[0.566667px] leading-[.95] uppercase menu__item-link hover:text-blue-500"
+                                    className="relative flex text-[30px] lg:text-[68px] font-microgramma tracking-[0.566667px] leading-[.95] uppercase menu__item-link hover:text-[#1eabe8]"
                                     onClick={() => {
                                         setNavbarOpen(false);
                                     }}
@@ -152,7 +152,7 @@ export default function MenuOverlay({ navbarOpen, setNavbarOpen }) {
                             <li className="flex">
                                 <Link
                                     to="billetterie"
-                                    className="relative flex text-[30px] lg:text-[68px] font-microgramma tracking-[0.566667px] leading-[.95] uppercase menu__item-link hover:text-blue-500"
+                                    className="relative flex text-[30px] lg:text-[68px] font-microgramma tracking-[0.566667px] leading-[.95] uppercase menu__item-link hover:text-[#1eabe8]"
                                     onClick={() => {
                                         setNavbarOpen(false);
                                     }}
@@ -164,7 +164,7 @@ export default function MenuOverlay({ navbarOpen, setNavbarOpen }) {
                     )}
                 </nav>
                 {' '}
-                <div className="border border-blue-500 h-[1px] opacity-30" />
+                <div className="border border-[#1eabe8] h-[1px] opacity-30" />
                 {' '}
                 <div className="flex flex-wrap justify-center items-center pt-9 pb-5 lg:justify-between lg:pt-3 lg:pb-4">
                     <nav>

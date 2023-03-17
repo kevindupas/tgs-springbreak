@@ -82,13 +82,13 @@ function Footer() {
                     {' '}
                     {dayjs().year()}
                     {' '}
-                    <a href="http://tgsevenements.com/" target="_blank" rel="noreferrer" className="text-blue-500">TGS EVENEMENTS</a>
+                    <a href="http://tgsevenements.com/" target="_blank" rel="noreferrer" className="text-[#1eabe8]">TGS EVENEMENTS</a>
                     {' '}
                     - Tous droits réservés.
                     <br />
                     Design et Développement par
                     {' '}
-                    <a href="https://kevindupas.com" target="_blank" rel="noreferrer" className="text-blue-500">Kévin Dupas</a>
+                    <a href="https://kevindupas.com" target="_blank" rel="noreferrer" className="text-[#1eabe8]">Kévin Dupas</a>
                 </p>
             </div>
         </footer>

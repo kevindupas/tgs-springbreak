@@ -76,7 +76,7 @@ export default function InfosPratiques() {
                                             <p>{value.mini_content}</p>
                                         </div>
                                         <div className="flex items-center justify-center">
-                                            <Link key={value.id} to={`/info/${value.id}`} className="mt-4 text-sm flex items-end font-bold uppercase hover:text-blue-500 hover:scale-125">
+                                            <Link key={value.id} to={`/info/${value.id}`} className="mt-4 text-sm flex items-end font-bold uppercase hover:text-[#1eabe8] hover:scale-125">
                                                 Lire la suite
                                             </Link>
                                         </div>

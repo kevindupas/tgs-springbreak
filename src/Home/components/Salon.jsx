@@ -15,7 +15,7 @@ export default function Salon() {
                 <div className="relative isolate overflow-hidden">
                     <div className="max-w-7xl pt-10 pb-24 sm:pb-32 lg:py-36">
                         <div className="mt-20 sm:mt-24 md:mx-auto lg:mx-0 lg:mt-0">
-                            <h1 className="font-heading_bold absolute tracking-[0.566667px] text-5xl leading-[.95] w-[650px] left-8 top-24 uppercase text-blue-500">
+                            <h1 className="font-heading_bold absolute tracking-[0.566667px] text-5xl leading-[.95] w-[650px] left-8 top-24 uppercase text-[#1eabe8]">
                                 LE SALON DE
                                 {' '}
                                 <br />

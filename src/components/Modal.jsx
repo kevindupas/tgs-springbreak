@@ -25,7 +25,7 @@ export default function Modal({ setOpenModal, title, description }) {
                                 </div>
                                 <div className="items-center gap-2 mt-3 sm:flex">
                                     <button
-                                        className="w-full mt-2 p-2.5 flex- bg-blue-500 text-gray-800 font-bold rounded-md outline-none border ring-offset-2 ring-indigo-600 focus:ring-2"
+                                        className="w-full mt-2 p-2.5 flex- bg-[#1eabe8] text-gray-800 font-bold rounded-md outline-none border"
                                         onClick={() => setOpenModal(false)}
                                     >
                                         Continuer la visite

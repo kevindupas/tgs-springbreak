@@ -32,7 +32,7 @@ export default function InformationMobile() {
                         <p className="text-sm leading-6 text-gray-600">Co-Founder / CTO</p>
                     </li>
                     <Link to="informations-pratiques">
-                        <div className="mx-auto w-28 h-28 rounded-full bg-blue-600 flex justify-center items-center hover:scale-105">
+                        <div className="mx-auto w-28 h-28 rounded-full bg-[#1eabe8] flex justify-center items-center hover:scale-105">
                             <img src="/dist/icons/info_pratiques.svg" width="50%" className="mx-auto" alt="" />
                         </div>
                         <h3 className="mt-6 text-base font-heading_bold font-semibold leading-7 tracking-tight text-white uppercase">Infos Pratiques</h3>

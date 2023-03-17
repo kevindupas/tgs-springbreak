@@ -8,7 +8,7 @@ export default function Video() {
     return (
         <section className="relative h-[calc(100vh-80px)]">
             <div className="relative z-10 max-w-[1200px] mx-auto h-full content-end flex items-center flex-row-reverse">
-                <blockquote className="text-white font-heading_bold tracking-[0.566667px] leading-[.95] indent-0 uppercase text-4xl w-[19.4rem] border-l-[15px] border-blue-500 pl-5 py-4 relative">
+                <blockquote className="text-white font-heading_bold tracking-[0.566667px] leading-[.95] indent-0 uppercase text-4xl w-[19.4rem] border-l-[15px] border-[#1eabe8] pl-5 py-4 relative">
                     <span
                         className="drop-shadow-2xl"
                         style={{
