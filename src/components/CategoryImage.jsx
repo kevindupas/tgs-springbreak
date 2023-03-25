@@ -1,12 +1,11 @@
 /* eslint-disable no-console */
 /* eslint-disable no-shadow */
 import React, { useEffect, useState } from 'react';
-import { URL } from '../utils/config';
+import { SALON_ID, URL } from '../utils/config';
 import Loader from './Loader';
 
 export default function CategoryImage({ categoryId, categoryName }) {
     const [error, setError] = useState(null);
-    const [isLoaded, setIsLoaded] = useState(false);
     const [category, setCategory] = useState([]);
     useEffect(() => {
         const options = {
@@ -18,15 +17,13 @@ export default function CategoryImage({ categoryId, categoryName }) {
                 'Content-Type': 'application/json',
             },
         };
-        fetch(`${URL}/api/categories/${categoryId}`, options)
+        fetch(`${URL}/api/salon/${SALON_ID}/categories/${categoryId}`, options)
             .then((res) => res.json())
             .then(
                 (data) => {
-                    setIsLoaded(true);
                     setCategory(data.data);
                 },
                 (error) => {
-                    setIsLoaded(true);
                     setError(error);
                 },
             );
