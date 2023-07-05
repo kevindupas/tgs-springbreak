@@ -58,7 +58,7 @@ export default function SalonMobile() {
                         </div>
                     </div>
                     <div className="mt-10 mb-4 flex justify-center items-center">
-                        <a href="https://photos.tgs-montpellier.fr" target="_blank" className="inline-block text-center cursor-pointer py-5 px-11" rel="noreferrer">
+                        <a href="https://photos.tgs-springbreak.fr" target="_blank" className="inline-block text-center cursor-pointer py-5 px-11" rel="noreferrer">
                             <button
                                 type="button"
                                 className="rounded-lg bg-[#1eabe8] py-2.5 px-3.5 text-3xl border-2 text-white shadow-sm uppercase font-bold"

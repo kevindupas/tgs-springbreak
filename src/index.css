@@ -454,12 +454,12 @@ html {
   border-radius: 0;
   color: #fff;
   box-shadow: none;
-  background-color: #ec6f15 !important;
+  background-color: #47ace8 !important;
 }
 
 /* round buttons on hover */
 .rec.rec-arrow:hover {
-  background-color: #9a2a02 !important;
+  background-color: #267fb3 !important;
 }
 
 /* hide disabled buttons */

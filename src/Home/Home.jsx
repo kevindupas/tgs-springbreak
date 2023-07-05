@@ -13,7 +13,7 @@ import Infos from './components/Infos';
 import InformationTest from './components/InformationTest';
 import PartnerTest from './components/PartnerTest';
 import ProgrammeTest from './components/ProgrammeTest';
-import { INVITE_CATEGORY, SALON_ID } from '../utils/config';
+import { INVITE_CATEGORY, PROGRAMME_CATEGORY, SALON_ID } from '../utils/config';
 import InviteTest from './components/InviteTest';
 import useMedia from '../utils/useMedia';
 import SalonMobile from './components/SalonMobile';
@@ -46,7 +46,7 @@ export default function Home() {
                 />
                 {isDesktop ? <Salon /> : <SalonMobile /> }
                 <ProgrammeTest
-                    category={2}
+                    category={PROGRAMME_CATEGORY}
                     salon={SALON_ID}
                     limit={5}
                 />

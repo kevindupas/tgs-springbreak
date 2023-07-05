@@ -59,7 +59,7 @@ export default function AllSalon() {
                             {allSalon.map((value) => {
                                 if (value.name !== 'TGS Springbreak') {
                                     return (
-                                        <div className="space-y-4">
+                                        <div className="space-y-4" key={value.id}>
                                             <a href={value.link}>
                                                 <img className={clsx('mx-auto h-auto', value.name !== 'TGS Springbreak' ? 'w-44' : 'w-full')} src={URL + value.logo} alt="" />
                                             </a>

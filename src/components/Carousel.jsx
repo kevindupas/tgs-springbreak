@@ -23,45 +23,45 @@ import ReactElasticCarousel from '@itseasy21/react-elastic-carousel';
 // }
 
 const breakPoints = [
-  {
-    width: 1,
-    itemsToShow: 1,
-  },
-  {
-    width: 550,
-    itemsToShow: 2,
-  },
-  {
-    width: 768,
-    itemsToShow: 3,
-  },
-  {
-    width: 1200,
-    itemsToShow: 6,
-  },
+    {
+        width:       1,
+        itemsToShow: 1,
+    },
+    {
+        width:       550,
+        itemsToShow: 2,
+    },
+    {
+        width:       768,
+        itemsToShow: 3,
+    },
+    {
+        width:       1200,
+        itemsToShow: 6,
+    },
 ];
 
 function Carousel({
-  children,
-  wheel,
-  wheelScroll,
+    children,
+    wheel,
+    wheelScroll,
 }) {
-  return (
-    <ReactElasticCarousel
+    return (
+        <ReactElasticCarousel
         // renderArrow={myArrow}
-      breakPoints={breakPoints}
-      showArrows
-      enableSwipe
-      enableMouseSwipe={false}
-      preventDefaultTouchmoveEvent={false}
-      wheel={wheel}
-      wheelScroll={wheelScroll}
-      pagination={false}
-      isRTL={false}
-    >
-      {children}
-    </ReactElasticCarousel>
-  );
+            breakPoints={breakPoints}
+            showArrows
+            enableSwipe
+            enableMouseSwipe={false}
+            preventDefaultTouchmoveEvent={false}
+            wheel={wheel}
+            wheelScroll={wheelScroll}
+            pagination={false}
+            isRTL={false}
+        >
+            {children}
+        </ReactElasticCarousel>
+    );
 }
 
 export default Carousel;

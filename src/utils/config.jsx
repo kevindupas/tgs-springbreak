@@ -8,4 +8,3 @@ export const INFOS_PRATIQUES_CATEGORY = 12;
 export const FAQ_CATEGORY = 13;
 export const EXPOSANT_CATEGORY = 14;
 export const BILLETTERIE_CATEGORY = 15;
-export const MOSAIC_CATEGORY = 8;

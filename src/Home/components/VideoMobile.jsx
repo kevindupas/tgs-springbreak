@@ -45,7 +45,7 @@ export default function Video() {
                                 autoplay
                                 playsinline
                                 type="video/mp4"
-                                src='/dist/video/new_video_montpellier.mp4'
+                                src='/dist/video/springbreak_site_internet.mp4'
                                 class='object-cover h-full w-full pt-[5em]'
                             />`,
                     }}

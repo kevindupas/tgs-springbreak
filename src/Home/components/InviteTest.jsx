@@ -15,7 +15,6 @@ import { URL } from '../../utils/config';
 export default function InviteTest({
     category,
     salon,
-    limit,
 }) {
     const [invites, setInvites] = useState([]);
 
